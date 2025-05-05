@@ -1,1 +1,22 @@
- 
+name: toxic_bias_audit
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - pip
+  - pip:
+      - transformers
+      - datasets
+      - shap
+      - fairlearn
+      - tqdm
+      - torch
+      - accelerate
+      - sentencepiece
